@@ -50,3 +50,8 @@ details {
     cursor: pointer;
     margin: 0;
 }
+
+mark {
+    display: block;
+    margin: 1em !important;
+}
