@@ -13,13 +13,14 @@
   <main class="container">
     <nav>
       <ul>
-        <li><strong>Test app</strong></li>
+        <li><strong>Car Shop</strong></li>
       </ul>
       <ul>
         <li><a href="{{ route('home.index') }}">Home</a></li>
-        <li><a href="{{ route('home.about') }}">About us</a></li>
+        <li><a href="{{ route('cars.index') }}">Cars</a></li>
         <li><a href="{{ route('home.contact') }}">Contact us</a></li>
-      </ul>
+        <li><a href="{{ route('home.about') }}">About us</a></li>
+    </ul>
     </nav>
     <article style="margin: 0px;">
       @yield('content')
