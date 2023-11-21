@@ -55,3 +55,7 @@ mark {
     display: block;
     margin: 1em !important;
 }
+
+article a {
+    color: white;
+}
