@@ -1,6 +1,6 @@
 @extends('layouts.home')
 
-@section('title', 'Create Car')
+@section('title', 'Edit Car')
 
 @section('content')
   <form method="POST" action="{{ route('cars.update', ['car' => $car->id]) }}">
@@ -23,5 +23,6 @@
       <mark>{{ $message }}</mark>
     @enderror
     <button type="submit" class="contrast">Submit</button>
+    <a href="{{ route('cars.show', $car->id) }}" class="secondary" role="button" style="width: 100%">Cancel</a>
   </form>
 @endsection
